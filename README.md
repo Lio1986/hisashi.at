@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hisashi
 
 ## Project setup
@@ -24,3 +25,6 @@ npm run test
 ```
 npm run lint
 ```
+=======
+# hisashi.at
+>>>>>>> 34fd397fce58f7747d41e92825d45172d361f4cb
