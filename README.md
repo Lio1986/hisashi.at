@@ -33,5 +33,5 @@ npm run lint
 ### Deploy to GitHub Pages
 
 ```
-./deploy.sh
+npm run deploy
 ```
