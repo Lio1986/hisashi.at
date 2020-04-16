@@ -15,7 +15,8 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
 
 #app {
   font-family: "Archivo Narrow", sans-serif;
