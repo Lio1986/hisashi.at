@@ -5,9 +5,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import VueAnalytics from 'vue-analytics';
 
 // Install BootstrapVue
-Vue.use(BootstrapVue)
+Vue.use(
+  BootstrapVue,
+  VueAnalytics, {
+  id: 'UA-164556408-1'
+});
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -15,7 +20,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 library.add(faEnvelope)
 library.add(faLinkedin)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
 
 Vue.config.productionTip = false
 
